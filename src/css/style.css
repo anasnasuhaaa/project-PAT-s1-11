@@ -30,6 +30,9 @@ h1 {
     width: 50%;
     display: flex;
 }
+.menu-section{
+    height: 100vh;
+}
 
 .menu-card {
     background-color: white;
@@ -40,8 +43,16 @@ h1 {
 }
 
 .menu-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.menu-card a{
+    text-decoration: none;
+}
+.menu-title{
+  font-weight: 600;
+    color: black;
+   font-size: 2rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -59,5 +70,8 @@ h1 {
     }
     .btn-group {
         width: 70%;
+    }
+    .menu-section{
+        height: 100%;
     }
 }

@@ -1,25 +1,30 @@
-[{
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+{
+  "author1": "Anas Nasuha",
+  "author2": "Ibrahim",
+  "data": [
+    {
+      "title": "SILABUS",
+      "image": "src/img/menu1.png"
     },
     {
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+      "title": "RPP",
+      "image": "src/img/menu2.png"
     },
     {
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+      "title": "KALDIK",
+      "image": "src/img/menu3.png"
     },
     {
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+      "title": "Silabus",
+      "image": "src/img/menu4.png"
     },
     {
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+      "title": "Silabus",
+      "image": "src/img/menu9.png"
     },
     {
-        "title": "Silabus",
-        "image": "/src/img/silabus.png"
+      "title": "RAPOR",
+      "image": "src/img/menu7.png"
     }
-]
+  ]
+}
