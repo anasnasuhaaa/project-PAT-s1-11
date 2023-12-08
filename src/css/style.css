@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,400&display=swap');
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3.2rem !important;
+}
+
+
+/* #navbar {
+    height: 8vh;
+} */
+
+#logo {
+    width: 15%;
+}
+
+.landing-section {
+    height: 92vh;
+}
+
+.btn-group {
+    display: flex;
+    align-self: start;
+    width: 50%;
+    display: flex;
+}
+
+.menu-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.7rem !important;
+    }
+    p {
+        font-size: .8rem;
+    }
+    .landing-section img {
+        width: 90%;
+    }
+    .btn-group {
+        width: 70%;
+    }
+}
