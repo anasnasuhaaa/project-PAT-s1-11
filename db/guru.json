@@ -1,6 +1,6 @@
 {
     "title": "Data Guru SMK TI BAZMA",
-    "data": [{
+    "dataGuru": [{
             "name": "Ahmad Rifa'i",
             "fotoProfile": "src/img/guruimg/guru-man-1.jpg",
             "mapel": "Pendidikan Pancasila"

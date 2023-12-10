@@ -12,14 +12,14 @@
     <style>
         .search-group {
             border: 1px solid gray;
-            width: 0;
+            width: fit-content;
             margin: auto;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 10px 20px;
-            border-radius: 20px;
-            transition: all 0.5s ease-in-out;
+            border-radius: 50px;
+            transition: all 0.2s ease-in-out;
         }
         
         .search-group input {
@@ -32,16 +32,49 @@
         .search-group i {
             cursor: pointer;
         }
+        
+        .search-span {
+            margin-left: 5px;
+        }
+        
+        .guru-card {
+            border: 1px solid black;
+        }
+        
+        .guru-card-container {
+            height: 80vh;
+            width: 80%;
+            overflow: scroll;
+        }
+        
+        .guru-card-container::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .guru-card {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="search-group mt-5">
+    <div class="container d-flex vh-100 justify-content-evenly flex-column align-items-center">
+        <div class="search-group bg-body-secondary m-0">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" placeholder="Cari Guru">
-
+            <span class="search-span">Search</span>
+            <input type="search" class="d-none bg-body-secondary" placeholder="Cari Guru">
         </div>
+        <div class="guru-card-container" guru-card-container></div>
+        <template data-guru-template>
+                <div class="guru-card">
+                    <img class="guru-img" guru-img src="" alt="">
+                    <div class="guru-name" guru-name>
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                    <div class="icon"></div>
+                </div>
+            </template>
     </div>
 
     <script src="src/js/bootstrap.bundle.min.js"></script>
@@ -49,12 +82,34 @@
         const searchGroup = document.querySelector('.search-group')
         const search = document.querySelector('.search-group input')
         const searchIcon = document.querySelector('.search-group i')
+        const searchSpan = document.querySelector('.search-span')
 
-        searchIcon.addEventListener('click', () => {
-            searchGroup.style.width = '50%'
+        searchIcon.addEventListener('mouseover', () => {
+            search.classList.remove('d-none')
+            searchGroup.style.width = '80%'
+            searchSpan.style.display = 'none'
         })
 
-        console.log(search);
+        const guruCardTemplate = document.querySelector("[data-guru-template]")
+        const guruCardContainer = document.querySelector("[guru-card-container]")
+
+        fetch('db/guru.json')
+            .then(res => res.json())
+            .then(data => {
+                data.dataGuru.forEach(user => {
+                    console.log(user);
+
+                    const card = guruCardTemplate.content.cloneNode(true).children[0]
+                    const guruName = card.querySelector("[guru-name] h5")
+                    const guruMapel = card.querySelector("[guru-name] p")
+                    const guruImg = card.querySelector("[guru-img]")
+
+                    guruName.textContent = user.name
+                    guruMapel.textContent = user.mapel
+                        // guruImg.src = user.fotoProfile
+                    guruCardContainer.append(card)
+                });
+            })
     </script>
 </body>
 
