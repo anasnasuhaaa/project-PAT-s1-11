@@ -1,0 +1,54 @@
+{
+    "title": "Data Guru SMK TI BAZMA",
+    "data": [{
+            "name": "Ahmad Rifa'i",
+            "fotoProfile": "src/img/guruimg/guru-man-1.jpg",
+            "mapel": "Pendidikan Pancasila"
+        },
+        {
+            "name": "Jefri Nichol",
+            "fotoProfile": "src/img/guruimg/guru-man-2.jpg",
+            "mapel": "Bahasa Rusia"
+        },
+        {
+            "name": "Arga Saputra",
+            "fotoProfile": "src/img/guruimg/guru-man-3.jpg",
+            "mapel": "Bela Diri"
+        },
+        {
+            "name": "Raqi Saputra",
+            "fotoProfile": "src/img/guruimg/guru-man-4.jpg",
+            "mapel": "KomjarDas"
+        },
+        {
+            "name": "Ronaldo Bambang",
+            "fotoProfile": "src/img/guruimg/guru-man-5.jpg",
+            "mapel": "Seni Music"
+        },
+        {
+            "name": "Galang Firmansyah",
+            "fotoProfile": "src/img/guruimg/guru-man-6.jpg",
+            "mapel": "MAtematika"
+        },
+        {
+            "name": "Ahmad Kosasih",
+            "fotoProfile": "src/img/guruimg/guru-man-7.jpg",
+            "mapel": "Pendidikan Jasmani"
+        },
+        {
+            "name": "Aliando",
+            "fotoProfile": "src/img/guruimg/guru-man-8.jpg",
+            "mapel": "Bahasa Indonesia"
+        },
+        {
+            "name": "Nur Aisyah",
+            "fotoProfile": "src/img/guruimg/guru-women-10.jpg",
+            "mapel": "Bahasa Inggris"
+        },
+        {
+            "name": "Fatimah Azzahra",
+            "fotoProfile": "src/img/guruimg/guru-woman-9.jpg",
+            "mapel": "Agama Islam"
+        }
+    ]
+}
