@@ -1,0 +1,30 @@
+[{
+        "title": "Pelatihan Mandiri",
+        "img": "src/img/merdekabelajar/pelatihanMandiriImg.jpg",
+        "icon": "src/img/merdekabelajar/pelatihanMandiriIcon.png",
+        "description": "Materi tentang Kurikulum Merdeka dan seputarnya. Singkat dan praktis. Pelajari kapan pun, di mana pun."
+    },
+    {
+
+        "title": "Komunitas",
+        "img": "src/img/merdekabelajar/komunitasImg.jpg",
+        "icon": "src/img/merdekabelajar/komunitasIcon.png",
+        "description": "19.000+ komunitas guru dan tenaga kependidikan berbagi praktik baik tentang Kurikulum Merdeka."
+    }, {
+        "title": "Refleksi Kompetensi",
+        "img": "src/img/merdekabelajar/refleksiImg.jpg",
+        "icon": "src/img/merdekabelajar/refleksiIcon.png",
+        "description": "Rekomendasi pembelajaran yang disusun secara personal, khusus untuk Anda."
+    }, {
+        "title": "Seleksi Kepala Sekolah",
+        "img": "src/img/merdekabelajar/seleksiKepsekImg.jpg",
+        "icon": "src/img/merdekabelajar/seleksiKepsekIcon.png",
+        "description": "Informasi persyaratan, tahapan, dan pengecekan kualifikasi Anda dalam memenuhi kriteria seleksi."
+    },
+    {
+        "title": "LMS",
+        "img": "src/img/merdekabelajar/lms.jpg",
+        "icon": "src/img/merdekabelajar/lmsIcon.png",
+        "description": "Pelatihan terbimbing menggunakan LMS. Anda perlu terdaftar dalam pelatihan untuk mengakses fitur ini."
+    }
+]

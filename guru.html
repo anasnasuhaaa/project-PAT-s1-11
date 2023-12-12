@@ -73,7 +73,7 @@
         
         .guru-img {
             border-radius: 50%;
-            width: 15%;
+            width: 10%;
         }
         
         @media screen and (max-width: 567px) {
@@ -100,7 +100,7 @@
         <div class="search-group bg-body-secondary m-0">
             <i class="fa-solid fa-magnifying-glass"></i>
             <span class="search-span">Search</span>
-            <input type="search" class="d-none bg-body-secondary search-input" onkeyup="seacrh()" placeholder="Cari Guru">
+            <input type="search" class="d-none bg-body-secondary search-input" placeholder="Cari Guru">
         </div>
         <div class="guru-card-container" guru-card-container></div>
         <!-- <div class="guru-card">
@@ -114,84 +114,7 @@
     </div>
 
     <script src="src/js/bootstrap.bundle.min.js"></script>
-    <script>
-        const searchGroup = document.querySelector('.search-group')
-        const search = document.querySelector('.search-group input')
-        const searchIcon = document.querySelector('.search-group i')
-        const searchSpan = document.querySelector('.search-span')
-
-
-        searchIcon.addEventListener('mouseover', () => {
-            search.classList.remove('d-none')
-            searchGroup.style.width = '80%'
-            searchSpan.style.display = 'none'
-        })
-
-
-
-        const guruCardTemplate = document.querySelector("[data-guru-template]")
-        const guruCardContainer = document.querySelector("[guru-card-container]")
-
-        // const searchInput = document.querySelector('.search-input')
-        // searchInput.addEventListener('input', (e) => {
-        //     const value = e.target.value.toLowerCase()
-        //     users.forEach(user => {
-        //         const isVisible = user.name.includes(value) || user.mapel.includes(value)
-        //         user.element.classList.toggle('hide', !isVisible)
-        //     });
-        // })
-
-        let users;
-        fetch('db/guru.json')
-            .then(res => res.json())
-            .then(data => {
-                users = data.dataGuru.map(user => {
-                    // const card = guruCardTemplate.content.cloneNode(true).children[0]
-                    // const guruName = card.querySelector("[guru-name] h5")
-                    // const guruMapel = card.querySelector("[guru-name] p")
-                    // const guruImg = card.querySelector("[guru-img]")
-
-                    const card = `
-                    <div class="guru-card">
-            <img class="guru-img" guru-img src="${user.fotoProfile}" alt="">
-            <div class="guru-name" guru-name>
-                <h5>${user.name}</h5>
-                <p class="m-0">${user.mapel}</p>
-            </div>
-            <button type="button" class="btn btn-outline-primary">Upload Rpp</button>
-        </div>`
-
-                    // guruName.textContent = user.name
-                    // guruMapel.textContent = user.mapel
-                    // // guruImg.src = user.fotoProfile
-                    // guruCardContainer.append(card)
-
-                    guruCardContainer.innerHTML += card
-
-                    // return {
-                    //     name: user.name,
-                    //     mapel: user.mapel,
-                    //     img: user.img,
-                    //     element: card
-                    // }
-
-                    function seacrh() {
-                        const searchInput = document.querySelector('.search-input')
-                        let filter = searchInput.value.toLowerCase()
-                        let guruName = document.querySelector('.guru-name h5')
-                        for (let i = 0; i <= guruName.length; i++) {
-                            let a = guruCardContainer[i].getElementByTagName('h5')[0];
-
-                            let value = a.innerHTML || a.innerText || a.textContent
-                            if (value.toLowerCase().indexOf(filter) > -1) {
-                                guruCardContainer[i].style.display = ""
-                            } else {
-                                guruCardContainer[i].style.display = "none"
-                            }
-                        }
-                    }
-                });
-            })
+    <script src="src/js/guru.js">
     </script>
 </body>
 
