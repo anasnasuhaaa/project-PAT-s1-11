@@ -4,7 +4,7 @@ const searchIcon = document.querySelector('.search-group i')
 const searchSpan = document.querySelector('.search-span')
 
 
-searchIcon.addEventListener('mouseover', () => {
+searchGroup.addEventListener('mouseover', () => {
     search.classList.remove('d-none')
     searchGroup.style.width = '90%'
     searchSpan.style.display = 'none'
@@ -46,7 +46,7 @@ const getGuruData = (img, name, mapel) => {
                 <h5>${name}</h5>
                 <p class="m-0">${mapel}</p>
             </div>
-            <button type="button" class="btn btn-outline-primary">Upload Rpp</button>
+            <button type="button" class="btn btn-outline-primary">Detail</button>
         </div>`
 
     guruCardContainer.innerHTML += card

@@ -1,0 +1,88 @@
+.search-group {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+.search-group input {
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 100%;
+}
+
+.search-group i {
+    cursor: pointer;
+}
+
+.search-span {
+    margin-left: 5px;
+}
+
+.guru-card {
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guru-card-container {
+    padding: 10px;
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+.guru-card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.guru-name {
+    width: 50%;
+}
+
+.guru-name h5 {
+    font-size: 2rem;
+}
+
+.guru-name p {
+    font-size: 1.5rem;
+}
+
+.guru-img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+@media screen and (max-width: 567px) {
+    .guru-card-container {
+        width: 100%;
+    }
+    .guru-card {
+        padding: 10px;
+    }
+    .guru-img {
+        width: 20%;
+    }
+    .guru-name h5 {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    .guru-name p {
+        font-size: .9rem;
+        margin-left: 10px !important;
+    }
+    .btn {
+        font-size: 12px;
+    }
+}

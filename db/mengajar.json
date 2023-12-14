@@ -1,0 +1,20 @@
+[{
+        "title": "Asesmen Murid",
+        "img": "src/img/merdekabelajar/asesmentMuridImg.jpg",
+        "icon": "src/img/merdekabelajar/asesmentMuridIcon.png",
+        "description": "Paket soal daring/luring, dengan fitur pemeriksaan otomatis dan analisis hasil yang mendalam."
+    },
+    {
+
+        "title": "Perangkat Ajar",
+        "img": "src/img/merdekabelajar/PerangkatAjarImg.jpg",
+        "icon": "src/img/merdekabelajar/PerangkatAjarIcon.png",
+        "description": "Modul ajar, modul projek, buku teks, dan bahan ajar lainnya. Dikurasi oleh Kemendikbudristek."
+    }, {
+
+        "title": "CPT & APT",
+        "img": "src/img/merdekabelajar/cptApt.jpg",
+        "icon": "src/img/merdekabelajar/cptAptIcon.png",
+        "description": "Capaian Pembelajaran dan contoh Alur Tujuan Pembelajaran (ATP) sesuai Mata Pelajaran Anda."
+    }
+]

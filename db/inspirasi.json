@@ -1,0 +1,14 @@
+[{
+        "title": "Video Inspirasi",
+        "img": "src/img/merdekabelajar/vidioinspirasi.jpg",
+        "icon": "src/img/merdekabelajar/vidioinspirasiIcon.png",
+        "description": "Kumpulan video dari sumber terpilih untuk membantu memahami dan menerapkan Kurikulum Merdeka."
+    },
+    {
+
+        "title": "Bukti Karya",
+        "img": "src/img/merdekabelajar/buktikarya.jpg",
+        "icon": "src/img/merdekabelajar/buktikaryaIcon.png",
+        "description": "Rekam jejak karya, kinerja, dan kompetensi pendidik. Kesempatan berinteraksi dan bertukar pikiran."
+    }
+]

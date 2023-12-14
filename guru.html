@@ -8,109 +8,18 @@
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-
-    <style>
-        .search-group {
-            border: 1px solid gray;
-            width: 100px;
-            margin: auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-            border-radius: 50px;
-            transition: all 0.2s ease-in-out;
-            border: none;
-        }
-        
-        .search-group input {
-            border: none;
-            outline: none;
-            width: 95%;
-            height: 100%;
-        }
-        
-        .search-group i {
-            cursor: pointer;
-        }
-        
-        .search-span {
-            margin-left: 5px;
-        }
-        
-        .guru-card {
-            border-radius: 20px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            margin-bottom: 20px;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .guru-card-container {
-            padding: 10px;
-            height: 80vh;
-            width: 100%;
-            overflow: scroll;
-        }
-        
-        .guru-card-container::-webkit-scrollbar {
-            display: none;
-        }
-        
-        .guru-name {
-            width: 50%;
-        }
-        
-        .guru-name h5 {
-            font-size: 2rem;
-        }
-        
-        .guru-name p {
-            font-size: 1.5rem;
-        }
-        
-        .guru-img {
-            border-radius: 50%;
-            width: 10%;
-        }
-        
-        @media screen and (max-width: 567px) {
-            .guru-card-container {
-                width: 90%;
-            }
-            .guru-card {
-                padding: 10px;
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .guru-name {
-                width: auto;
-            }
-            .guru-img {
-                width: 30%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="src/css/guru.css">
 </head>
 
 <body>
     <div class="container d-flex vh-100 justify-content-evenly flex-column align-items-center">
-        <div class="search-group bg-body-secondary m-0">
+        <div class="search-group m-0">
             <i class="fa-solid fa-magnifying-glass"></i>
             <span class="search-span">Search</span>
-            <input type="search" class="d-none bg-body-secondary search-input" placeholder="Cari Guru">
+            <input type="search" class="d-none search-input" placeholder="Cari Guru">
         </div>
         <div class="guru-card-container" guru-card-container></div>
-        <!-- <div class="guru-card">
-            <img class="guru-img" guru-img src="" alt="">
-            <div class="guru-name" guru-name>
-                <h5></h5>
-                <p class="m-0"></p>
-            </div>
-            <button type="button" class="btn btn-outline-primary">Upload Rpp</button>
-        </div> -->
+
     </div>
 
     <script src="src/js/bootstrap.bundle.min.js"></script>
