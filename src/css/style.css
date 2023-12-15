@@ -5,6 +5,7 @@
             padding: 0;
             margin: 0;
             font-family: 'DM Sans', sans-serif;
+            scroll-behavior: smooth;
         }
         
         h1 {
@@ -20,6 +21,7 @@
         
         .landing-section {
             height: 92vh;
+            
         }
         
         .btn-group {
