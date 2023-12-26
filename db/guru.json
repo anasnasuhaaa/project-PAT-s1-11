@@ -2,53 +2,63 @@
     "title": "Data Guru SMK TI BAZMA",
     "dataGuru": [{
             "name": "Ahmad Rifa'i",
-            "fotoProfile": "src/img/guruimg/guru-man-1.jpg",
-            "mapel": "Pendidikan Pancasila"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-1.jpg",
+            "mapel": "Pendidikan Pancasila",
+            "asal":"Cirebon"
         },
         {
             "name": "Jefri Nichol",
-            "fotoProfile": "src/img/guruimg/guru-man-2.jpg",
-            "mapel": "Bahasa Rusia"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-2.jpg",
+            "mapel": "Bahasa Rusia",
+            "asal":"Bogor"
         },
         {
             "name": "Arga Saputra",
-            "fotoProfile": "src/img/guruimg/guru-man-3.jpg",
-            "mapel": "Bela Diri"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-3.jpg",
+            "mapel": "Bela Diri",
+            "asal":"Subang"
         },
         {
             "name": "Rudi Saputra",
-            "fotoProfile": "src/img/guruimg/guru-man-4.jpg",
-            "mapel": "KomjarDas"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-4.jpg",
+            "mapel": "KomjarDas",
+            "asal":"Sumedang"
         },
         {
             "name": "Ronaldo Bambang",
-            "fotoProfile": "src/img/guruimg/guru-man-5.jpg",
-            "mapel": "Seni Music"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-5.jpg",
+            "mapel": "Seni Music",
+            "asal":"Bandung"
         },
         {
             "name": "Galang Firmansyah",
-            "fotoProfile": "src/img/guruimg/guru-man-6.jpg",
-            "mapel": "MAtematika"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-6.jpg",
+            "mapel": "MAtematika",
+            "asal":"Bogor"
         },
         {
             "name": "Ahmad Kosasih",
-            "fotoProfile": "src/img/guruimg/guru-man-7.jpg",
-            "mapel": "Pendidikan Jasmani"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-7.jpg",
+            "mapel": "Pendidikan Jasmani",
+            "asal":"Depok"
         },
         {
             "name": "Aliando",
-            "fotoProfile": "src/img/guruimg/guru-man-8.jpg",
-            "mapel": "Bahasa Indonesia"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-man-8.jpg",
+            "mapel": "Bahasa Indonesia",
+            "asal":"Jakarta"
         },
         {
             "name": "Nur Aisyah",
-            "fotoProfile": "src/img/guruimg/guru-women-10.jpg",
-            "mapel": "Bahasa Inggris"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-women-10.jpg",
+            "mapel": "Bahasa Inggris",
+            "asal":"Tanggerang"
         },
         {
             "name": "Fatimah Azzahra",
-            "fotoProfile": "src/img/guruimg/guru-women-9.jpg",
-            "mapel": "Agama Islam"
+            "fotoProfile": "/project-PAT-s1-11/src/img/guruimg/guru-women-9.jpg",
+            "mapel": "Agama Islam",
+            "asal":"Bekasi"
         }
     ]
 }
