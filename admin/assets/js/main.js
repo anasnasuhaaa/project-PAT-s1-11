@@ -22,7 +22,7 @@ toggle.onclick = function () {
 
 // Daftar Guru
 async function getMenuData() {
-	const endpoint = await fetch('/project-PAT-s1-11/db/guru.json');
+	const endpoint = await fetch('../db/guru.json');
 	const menuData = await endpoint.json();
 	console.log(menuData.dataGuru);
 

@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Daftar Guru</title>
+		<link rel="stylesheet" href="src/css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="src/css/guru.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="src/css/guru.css">
-</head>
+	<body>
+		<div
+			class="container d-flex vh-100 justify-content-evenly flex-column align-items-center"
+		>
+			<div class="search-group m-0">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<span class="search-span">Search</span>
+				<input
+					type="search"
+					class="d-none search-input"
+					placeholder="Cari Guru"
+				/>
+			</div>
+			<div class="guru-card-container" guru-card-container></div>
+		</div>
 
-<body>
-    <div class="container d-flex vh-100 justify-content-evenly flex-column align-items-center">
-        <div class="search-group m-0">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <span class="search-span">Search</span>
-            <input type="search" class="d-none search-input" placeholder="Cari Guru">
-        </div>
-        <div class="guru-card-container" guru-card-container></div>
-
-    </div>
-
-    <script src="src/js/bootstrap.bundle.min.js"></script>
-    <script src="src/js/guru.js">
-    </script>
-</body>
-
+		<script src="src/js/bootstrap.bundle.min.js"></script>
+		<script src="src/js/guru.js"></script>
+	</body>
 </html>
